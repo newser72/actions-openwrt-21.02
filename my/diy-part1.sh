@@ -19,20 +19,21 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/messense/aliyundrive-webdav package/messense
+echo 'src-git rtp2httpd https://github.com/stackia/rtp2httpd.git' >>feeds.conf.default
 
 # 商店
-git clone https://github.com/linkease/istore-ui package/istore-ui
-git clone https://github.com/linkease/istore package/istore
+#git clone https://github.com/linkease/istore-ui package/istore-ui
+#git clone https://github.com/linkease/istore package/istore
 
 # 主题皮肤
 #git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 #git clone https://github.com/derisamedia/luci-theme-alpha package/luci-theme-alpha
 #git clone https://github.com/SAENE/luci-theme-design package/luci-theme-design
 # 集客AC控制器
-git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+#git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 
 # alist文件列表
 #git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 # MosDns
-git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+#git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
