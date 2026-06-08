@@ -19,6 +19,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/messense/aliyundrive-webdav package/messense
+echo 'src-git rtp2httpd https://github.com/stackia/rtp2httpd.git' >>feeds.conf.default
 
 # 商店
 #git clone https://github.com/linkease/istore-ui package/istore-ui
