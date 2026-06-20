@@ -24,3 +24,8 @@ echo 'src-git rtp2httpd https://github.com/stackia/rtp2httpd.git' >>feeds.conf.d
 # 商店
 #git clone https://github.com/linkease/istore-ui package/istore-ui
 #git clone https://github.com/linkease/istore package/istore
+
+# Fix a bug for ppp-down
+if ! grep -g "sleep" package/network/services/ppp/files/lib/netifd/ppp-down; then
+    echo "sleep 3" >> package/network/services/ppp/files/lib/netifd/ppp-down
+fi
